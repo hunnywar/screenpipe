@@ -1,0 +1,16 @@
+{
+  "name": "Screenpipe",
+  "dockerComposeFile": "./docker-compose.yml",
+  "service": "screenpipe",
+  "remoteUser": "developer",
+  "workspaceFolder": "/screenpipe",
+  "initializeCommand": "xhost +local: || true",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "tauri-apps.tauri-vscode",
+        "rust-lang.rust-analyzer"
+      ]
+    }
+  }
+}
